@@ -1,0 +1,80 @@
+body {
+  font-family:sans-serif;
+}
+header {
+  background: #eeeeee;
+  
+}
+.headerInner{
+  width:650px;
+  height:100px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.globalNav,a{
+  color: #1676a3;
+}
+.globalNav,a:hover{
+  color: rgb(15, 36, 228);
+}
+.mainInner{
+  width:650px;
+ margin:auto;
+}
+footer{
+  background-color:#eeeeee;
+ 
+}
+.footerInner{
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px
+}
+table,th,td{
+  border-collapse: collapse;
+  border: solid 1px #aaa;
+  text-align: center;
+  margin: auto;
+}
+table{
+  width: 100%;
+ 
+}
+th,td{
+  padding: 10px;
+ 
+}
+th{
+  width: 200px;
+  color: white;
+  background-image: url(niconico_bg_blue.png);
+}
+.keyVisual{
+  text-align: center;
+}
+h2{
+line-height: 50px;
+background-image: url(niconico_bg_blue.png);
+padding: 0px 10px;      /*最初のpxが横、次のpxが縦　*/
+text-align: center;
+color: white;
+}
+.aboutWrapper img{
+  float: left;
+  border-radius: 75px;
+  
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.aboutWrapper p:first-letter{
+  color: rgb(26, 73, 202);
+  font-size: 30px;
+}
+p{
+  line-height: 30px;
+}
